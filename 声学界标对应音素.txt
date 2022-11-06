@@ -1,0 +1,7 @@
+1) For all vowel-type phones (usually has labels that starts with the letters a, e, i, o, u, for example, [ih], [ae], etc.)  => Find the middle of the interval = (start time + end time)/2 and put a V landmark
+2) For all glide-type phones ([h], [w], [y], [r], [l]) => find the middle of the interval, and put a G landmark
+3) For all nasal-type phones ([m], [n], [ng]) => at the start time, put the Nc landmark, and at the end time, put the Nr landmark
+4) For all stop-closure phones ([b-cl], [d-cl], etc.) => at the start time, put the Sc landmark
+5) For all stop-type phones ([b], [d], etc.) => at the start time, put the Sr landmark
+6) For all fricative-type phones ([v], [dh], [z], etc.) => at the start time, put the Fc landmark, and at the end time, put the Fr landmark
+7) For all affricate-type phones ([jh] or [dj], [ch]) => at the start time, put the Sr landmark, and also put the Fc landmark, and at the end time, put the Fr landmark
